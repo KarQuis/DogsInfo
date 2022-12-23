@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiguagua</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    
+    <nav class="w-full fixed">
+        <div class="bg-[#86C8BC] h-20 flex items-center">
+          <div class="container mx-auto flex flex-row items-center">
+            <section class="md:basis-2/12 basis-3/12 inline-flex items-center">
+              <img class="h-14" src="https://i.pinimg.com/originals/27/d6/33/27d6332add97c24febd69753b55b7f10.png" alt="">
+              <p class="">Dogs Info</p>
+            </section>
+            <section class="md:flex justify-around basis-6/12 hidden">
+              <a href="../index.html" class="">Inicio</a>
+              <a href="../index.html" class="">Imagenes</a>
+              <a href="#footer" class="">Sobre Nosotros</a>
+            </section>
+            <section class="md:flex basis-4/12 justify-end h-8 hidden">
+              <input class="rounded" type="text">
+              <button class="mx-2">Buscar</button>
+            </section>
+            <section class="basis-9/12 md:hidden inline-flex justify-end">
+              <button class="btn mr-3" id="btn">
+                <img src="../assets/img/menu.png" alt="">
+              </button>
+            </section>
+          </div>
+        </div>
+        <div id="menu" class="bg-[#86C8BC] w-36 float-right" style="display: none;">
+          <section class="px-5 py-2 divide-y">
+            <ul>
+              <li> <a href="../index.html">Inicio</a></li>
+              <li class="border-t border-[#CEEDC7]"> <a href="../index.html">Imagenes</a></li>
+              <li class="border-t border-[#CEEDC7]"> <a href="#footer">Sobre Nosotros</a></li>
+            </ul>
+          </section>
+        </div>
+    </nav>
+
+    <main class="pt-20 mx-14 mb-4">
+        <div class="grid justify-items-center">
+            <section class="my-6">
+                <h3 class="my-2 text-3xl font-normal text-center bg-[#CEEDC7]">Boston</h3>
+                <img class="h-96 w-auto border border-[#CEEDC7]" src="https://www.bunko.pet/__export/1646862959345/sites/debate/img/2021/04/30/perro_boston_terrier_crop1619819368331.jpeg_1794333889.jpeg" alt="">  
+            </section>
+            <section class="my-6">
+                <h1 class="text-xl font-normal border border-[#FFF6BD] bg-[#FFF6BD]">Caracteristicas</h1>
+                <ul class="border border-[#FFF6BD] mt-2">
+                    <li>Descripción: Boston terrier es una raza canina originada en los Estados Unidos de América.</li>
+                    <li>Tamaño: 30-46 cm</li>
+                    <li>Peso: 6-11 kg.</li>
+                    <li>Carácter: Es activo y excepcionalmente dependiente de su amo; su desconfianza hacia los extraños y su falta de interés por la cacería permiten considerarlo como el vigilante ideal para una casa.</li>
+
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="bg-[#FFD4B2] h-40 grid items-center">
+          <section class="block">
+            <div class="flex justify-center">
+              <p>Visitanos en nuestras redes sociales</p>
+            </div>
+            <div class="flex justify-center">
+              <a href="https://www.facebook.com"><img class="h-10 m-2" src="../assets/img/facebook.png" alt=""></a>
+              <a href="https://www.twitter.com"><img class="h-10 m-2" src="../assets/img/twitter.png" alt=""></a>
+              <a href="https://www.instagram.com"><img class="h-10 m-2" src="../assets/img/instagram.png" alt=""></a>  
+            </div>
+          </section>
+          <section class="flex justify-center border-t-2 border-[#FFF6BD]">
+            <div class="inline-flex items-center">
+              <img class="h-10" src="https://i.pinimg.com/originals/27/d6/33/27d6332add97c24febd69753b55b7f10.png" alt="">
+              <p class="">Dogs Info</p>  
+            </div>
+            <div class="flex items-center mx-8">
+              <p>Todos los derechos reservados.</p>
+            </div>
+          </section>
+        </div>
+    </footer>
+  
+
+    <script src="../assets/js/script.js"></script>
+
+
+</body>
+</html>
