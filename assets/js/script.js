@@ -1,6 +1,9 @@
 let btn = document.getElementById("btn");
 let menu = document.getElementById("menu");
 let chiguagua = document.getElementById("chiguagua");
+let btn = document.getElementById("btn");
+let menu = document.getElementById("menu");
+let chiguagua = document.getElementById("chiguagua");
 
 btn.addEventListener('click', (e)=>{
   e.preventDefault();
